@@ -1,0 +1,27 @@
+{
+  "name": "node-net-chat",
+  "version": "0.0.1",
+  "description": "Simple net chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/node-net-chat"
+  },
+  "keywords": [
+    "node",
+    "net",
+    "chat"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/node-net-chat/issues"
+  },
+  "homepage": "https://github.com/miguelmota/node-net-chat",
+  "dependencies": {
+    "cli-color": "^0.3.2"
+  }
+}
