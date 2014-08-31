@@ -7,7 +7,7 @@ Chat client in Node.js
 ```bash
 git clone https://github.com/miguelmota/node-net-chat
 
-cd ndoe-net-chat
+cd node-net-chat
 
 npm install
 ```

@@ -44,6 +44,6 @@ net.createServer(function(socket) {
     console.log(message)
   }
 
-}).listen(port, '127.0.0.1');
+}).listen(port);
 
 console.log('Server running on port ' + port + '\n');
