@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/miguelmota/node-net-chat",
   "dependencies": {
-    "cli-color": "^0.3.2"
+    "cli-color": "^0.3.2",
+    "lodash": "^2.4.1"
   }
 }
