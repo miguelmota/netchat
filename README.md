@@ -27,7 +27,7 @@ telnet <server ip address> 9423
 # Demo
 
 ```bash
-$ telnet moogs.io 9423
+$ telnet netchat.moogs.io 9423
 
 Trying 192.241.197.9...
 Connected to moogs.io.
