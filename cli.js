@@ -9,10 +9,10 @@ var cli = meow(`
       --port, -p Port to run net server
 
     Examples
-      Run net server:
+      Run chat server:
       $ netchat server -p 3000
 
-      Connect to net server over netcat from anywhere:
+      Connect to chat server over netcat from anywhere:
       $ nc <server ip or domain> 3000
 `, {
     flags: {
