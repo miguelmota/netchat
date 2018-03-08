@@ -33,6 +33,7 @@ $ netchat --help
 
 ```bash
 $ netchat server -p 3000
+Server running on port 3000
 ```
 
 ### Connecting to chat server using netcat from anywhere
