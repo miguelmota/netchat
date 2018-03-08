@@ -1,28 +1,43 @@
 {
-  "name": "node-net-chat",
+  "name": "netchat",
   "version": "0.0.1",
-  "description": "Simple net chat",
+  "description": "Simple chat server over TCP",
   "main": "index.js",
+  "bin": {
+    "netchat": "bin/netchat"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelmota/node-net-chat"
+    "url": "https://github.com/miguelmota/netchat"
   },
   "keywords": [
     "node",
     "net",
-    "chat"
+    "chat",
+    "tcp",
+    "nc",
+    "netcat",
+    "telnet"
   ],
-  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/miguelmota/node-net-chat/issues"
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com"
   },
-  "homepage": "https://github.com/miguelmota/node-net-chat",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/netchat/blob/master/LICENSE.md"
+  },
+  "homepage": "https://github.com/miguelmota/netchat",
+  "bugs": {
+    "url": "https://github.com/miguelmota/netchat/issues"
+  },
   "dependencies": {
     "cli-color": "^0.3.2",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "meow": "^4.0.0"
   }
 }

@@ -1,39 +1,50 @@
-# Node Net Chat
+# netchat
 
-Chat client in Node.js
+> Simple chat server over TCP in [Node.js](https://nodejs.org)
 
-# Install
+## Install
 
 ```bash
-git clone https://github.com/miguelmota/node-net-chat
-
-cd node-net-chat
-
-npm install
+npm i -g netchat
 ```
 
-## Running chat server
+## Usage
 
 ```bash
-node index.js
+$ netchat --help
+
+  Simple chat server over TCP
+
+  Usage
+    $ netchat server [options]
+
+  Options
+    --port, -p Port to run net server
+
+  Examples
+    Run net server:
+    $ netchat server -p 3000
+
+    Connect to net server over netcat from anywhere:
+    $ nc <server ip or domain> 3000
 ```
 
-## Connecting to chat server
+### Running chat server
 
 ```bash
-telnet <server ip address> 9423
+$ netchat server -p 3000
 ```
 
-# Demo
+### Connecting to chat server using netcat from anywhere
 
 ```bash
-$ telnet netchat.moogs.io 9423
+nc <server ip address> <port>
+```
 
-Trying 192.241.197.9...
-Connected to moogs.io.
-Escape character is '^]'.
-Welcome, ::ffff:41.32.221.1:53684
-Type "quit" to exit.
+### Demo
+
+```bash
+$ nc netchat.moogs.io 2424
 
 Enter username: moogs
 You are now moogs
@@ -43,6 +54,6 @@ You are now moogs
 >
 ```
 
-# License
+## License
 
-Released under the MIT License.
+MIT
