@@ -79,7 +79,7 @@ function server(port) {
 
   }).listen(port)
 
-  console.log('Server running on port ' + port + '\n')
+  console.log('TCP server running on port ' + port + '\n')
 }
 
 module.exports.server = server
